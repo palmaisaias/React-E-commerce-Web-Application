@@ -1,8 +1,8 @@
 # Front and Decor E-Commerce Project
 
-This application connects a front-end interface to my e-commerce API from back and core. The application opens on a homepage, and the navigation is provided by a NAV bar at the top of the screen for which I incorporated React Bootstrap.
+This application connects a front-end interface to my e-commerce API from Back End Core. The application opens on a homepage, and the navigation is provided by a nav bar at the top of the screen for which I incorporated React Bootstrap.
 
-## Navigation Menu
+## Menu
 
 ### 1. Product List
 
@@ -16,7 +16,7 @@ The first item on the menu is the Product List component. This component connect
 - **Delete Product**:
   - Selecting the product gives you the option to delete the product.
   - When the user selects "Delete Product," a modal will populate to confirm the user's action and give them the option to either confirm or cancel.
-  - Canceling will simply show the update product screen again, and confirming will delete the product and refresh the Product List page, showing that the product has now been removed.
+  - Canceling will simply show the Update Product screen again, and confirming will delete the product and refresh the Product List page, showing that the product has now been removed.
 
 ### 2. Customer List (Members Page)
 
