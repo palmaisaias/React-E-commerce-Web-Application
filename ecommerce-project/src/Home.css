@@ -1,0 +1,23 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f8ff;
+    text-align: center;
+    padding: 20px;
+    background-image: url(https://images.unsplash.com/photo-1605086998852-18371cfd9b2e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  }
+  
+  .home-container h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .home-container p {
+    font-size: 18px;
+    color: #666;
+  }
+  

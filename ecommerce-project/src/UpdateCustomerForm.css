@@ -1,0 +1,42 @@
+.update-customer-form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .update-customer-form div {
+    margin-bottom: 15px;
+  }
+  
+  .update-customer-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .update-customer-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .update-customer-form button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .update-customer-form button:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,0 +1,76 @@
+.customer-details-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+
+  .customer-details-container a {
+    text-decoration: none;
+  }
+  
+  .customer-details-container h1 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .customer-details-container p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .return-to-list {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .return-to-list:hover {
+    background-color: #0056b3;
+  }
+  
+  .edit-button:hover {
+    background-color: #7cb382;
+  }
+
+  .edit-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #39754b;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .delete-button-details {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #982626;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .delete-button-details:hover {
+    background-color: #bf3030;
+  }

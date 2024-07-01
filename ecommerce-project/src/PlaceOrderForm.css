@@ -1,0 +1,111 @@
+.new-order-back {
+  background-image: url(https://images.unsplash.com/photo-1557821552-17105176677c?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+
+.place-order-form-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: rgba(56, 81, 59, 0.739);
+}
+
+.place-order-form-container h1 {
+  text-align: center;
+  font-size: 30px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.place-order-form-container h2 {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 19px;
+  color: #bf3c3c;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display:flex;
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.product-item {
+  background-color: rgba(160, 243, 200, 0.293);
+  flex: 1 1 calc(30% - 10px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
+  transition: transform 0.3s ease;
+}
+
+.product-item:hover {
+  transform: scale(1.1);
+  background-color: #82ad8f;
+}
+
+.product-item.selected {
+  background-color: #82ad8f;
+  color: #fff;
+  border-color: #4a6351;
+}
+
+.product-item h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.product-item p {
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.place-ord {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.return-button {
+  background-color: #6c757d;
+}
+
+.return-button:hover {
+  background-color: #5a6268;
+}

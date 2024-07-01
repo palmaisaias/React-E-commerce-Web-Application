@@ -1,0 +1,85 @@
+.update-product-form-container a {
+    text-decoration: none;
+  }
+  
+  .update-product-form-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .update-product-form-container h1 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .update-prod-onlist {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 10px;
+  }
+  
+  .update-prod-onlist:hover {
+    background-color: #0056b3;
+  }
+  
+  .delete-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #af0000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  
+  .delete-button:hover {
+    background-color: #c82333;
+  }
+  
+  .return-button {
+    background-color: #6c757d;
+    border-radius: 5px;
+  }
+  
+  .return-button:hover {
+    background-color: #5a6268;
+  }
+  

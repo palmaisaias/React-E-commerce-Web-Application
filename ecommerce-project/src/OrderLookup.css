@@ -1,0 +1,86 @@
+.order-look-back {
+  background-image: url(https://images.unsplash.com/photo-1580674285054-bed31e145f59?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  min-height: 100vh;
+}
+
+.order-lookup-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9d9;
+    text-align: center;
+  }
+  
+  .order-lookup-container h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .order-lookup-container form {
+    margin-bottom: 20px;
+  }
+  
+  .order-lookup-container label {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .order-lookup-container input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .order-lookup-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #6c757d;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .order-lookup-container button:hover {
+    background-color: #5a6268;
+  }
+  
+  .order-lookup-container .error {
+    color: red;
+  }
+  
+  .order-details {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .order-details h2 {
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .order-details p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .order-details ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .order-details li {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #fff;
+  }
+  

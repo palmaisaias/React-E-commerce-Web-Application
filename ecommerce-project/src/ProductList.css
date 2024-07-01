@@ -1,0 +1,97 @@
+.product-list-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    background-image: url(https://images.unsplash.com/photo-1534452203293-494d7ddbf7e0?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    text-decoration: none;
+  }
+
+  .product-list-container a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .product-list-container a:hover {
+    text-decoration: none;
+  }
+  
+  .product-list {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #ffffffc5;
+  }
+  
+  .product-list h1 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+
+  .product-list h3 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: lighter;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .product-list ul {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  
+  .product-list li {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f1c663;
+    text-align: center;
+  }
+  
+  .product-list h2 {
+    font-size: 20px;
+    color: #252525;
+    margin-bottom: 10px;
+  }
+  
+  .product-list p {
+    font-size: 16px;
+    color: #524b4b;
+    margin: 2px 0;
+  }
+
+  .product-list li:hover p {
+    font-size: 18px; 
+    font-weight: bold;
+    color: #439c5d; 
+  }
+
+  .add-product-button {
+    display: block;
+    margin: 0 auto 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #439c5d;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none !important; 
+  }
+  
+  .add-product-button:hover {
+    background-color: #54c576;
+    text-decoration: none;
+  }
+  
+  
