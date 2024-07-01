@@ -1,4 +1,4 @@
-# Front and Decor E-Commerce Project
+# Front End Core E-Commerce Project
 
 This application connects a front-end interface to my e-commerce API from Back End Core. The application opens on a homepage, and the navigation is provided by a nav bar at the top of the screen for which I incorporated React Bootstrap.
 
